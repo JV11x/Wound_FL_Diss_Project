@@ -1,0 +1,70 @@
+2023-09-29 15:31:09.963620: I tensorflow/core/platform/cpu_feature_guard.cc:193] This TensorFlow binary is optimized with oneAPI Deep Neural Network Library (oneDNN) to use the following CPU instructions in performance-critical operations:  AVX512F AVX512_VNNI
+To enable them in other operations, rebuild TensorFlow with the appropriate compiler flags.
+2023-09-29 15:31:10.058370: I tensorflow/core/util/port.cc:104] oneDNN custom operations are on. You may see slightly different numerical results due to floating-point round-off errors from different computation orders. To turn them off, set the environment variable `TF_ENABLE_ONEDNN_OPTS=0`.
+--------------------------------------------------------------------------
+WARNING: No preset parameters were found for the device that Open MPI
+detected:
+
+  Local host:            129-159-47-160
+  Device name:           mlx5_0
+  Device vendor ID:      0x02c9
+  Device vendor part ID: 4126
+
+Default device parameters will be used, which may result in lower
+performance.  You can edit any of the files specified by the
+btl_openib_device_param_files MCA parameter to set values for your
+device.
+
+NOTE: You can turn off this warning by setting the MCA parameter
+      btl_openib_warn_no_device_params_found to 0.
+--------------------------------------------------------------------------
+--------------------------------------------------------------------------
+No OpenFabrics connection schemes reported that they were able to be
+used on a specific port.  As such, the openib BTL (OpenFabrics
+support) will be disabled for this port.
+
+  Local host:           129-159-47-160
+  Local device:         mlx5_0
+  Local port:           1
+  CPCs attempted:       udcm
+--------------------------------------------------------------------------
+/home/ubuntu/.local/lib/python3.8/site-packages/pandas/core/computation/expressions.py:20: UserWarning: Pandas requires version '2.7.3' or newer of 'numexpr' (version '2.7.1' currently installed).
+  from pandas.core.computation.check import NUMEXPR_INSTALLED
+INFO flwr 2023-09-29 15:31:12,404 | app.py:162 | Starting Flower server, config: ServerConfig(num_rounds=5, round_timeout=None)
+INFO flwr 2023-09-29 15:31:12,416 | app.py:175 | Flower ECE: gRPC server running (5 rounds), SSL is disabled
+INFO flwr 2023-09-29 15:31:12,432 | server.py:89 | Initializing global parameters
+INFO flwr 2023-09-29 15:31:12,432 | server.py:272 | Using initial parameters provided by strategy
+INFO flwr 2023-09-29 15:31:12,432 | server.py:91 | Evaluating initial parameters
+INFO flwr 2023-09-29 15:31:12,433 | server.py:104 | FL starting
+DEBUG flwr 2023-09-29 15:31:24,543 | server.py:222 | fit_round 1: strategy sampled 2 clients (out of 2)
+DEBUG flwr 2023-09-29 15:32:01,561 | server.py:236 | fit_round 1 received 2 results and 0 failures
+WARNING flwr 2023-09-29 15:32:01,931 | fedavg.py:242 | No fit_metrics_aggregation_fn provided
+DEBUG flwr 2023-09-29 15:32:02,092 | server.py:173 | evaluate_round 1: strategy sampled 5 clients (out of 5)
+DEBUG flwr 2023-09-29 15:32:07,455 | server.py:187 | evaluate_round 1 received 5 results and 0 failures
+DEBUG flwr 2023-09-29 15:32:07,455 | server.py:222 | fit_round 2: strategy sampled 5 clients (out of 5)
+DEBUG flwr 2023-09-29 15:33:34,351 | server.py:236 | fit_round 2 received 5 results and 0 failures
+DEBUG flwr 2023-09-29 15:33:35,062 | server.py:173 | evaluate_round 2: strategy sampled 5 clients (out of 5)
+DEBUG flwr 2023-09-29 15:33:50,245 | server.py:187 | evaluate_round 2 received 5 results and 0 failures
+DEBUG flwr 2023-09-29 15:33:50,245 | server.py:222 | fit_round 3: strategy sampled 5 clients (out of 5)
+DEBUG flwr 2023-09-29 15:35:18,033 | server.py:236 | fit_round 3 received 5 results and 0 failures
+DEBUG flwr 2023-09-29 15:35:18,634 | server.py:173 | evaluate_round 3: strategy sampled 5 clients (out of 5)
+DEBUG flwr 2023-09-29 15:35:34,994 | server.py:187 | evaluate_round 3 received 5 results and 0 failures
+DEBUG flwr 2023-09-29 15:35:34,994 | server.py:222 | fit_round 4: strategy sampled 5 clients (out of 5)
+DEBUG flwr 2023-09-29 15:37:03,642 | server.py:236 | fit_round 4 received 5 results and 0 failures
+DEBUG flwr 2023-09-29 15:37:04,206 | server.py:173 | evaluate_round 4: strategy sampled 5 clients (out of 5)
+DEBUG flwr 2023-09-29 15:37:20,321 | server.py:187 | evaluate_round 4 received 5 results and 0 failures
+DEBUG flwr 2023-09-29 15:37:20,321 | server.py:222 | fit_round 5: strategy sampled 5 clients (out of 5)
+DEBUG flwr 2023-09-29 15:38:49,106 | server.py:236 | fit_round 5 received 5 results and 0 failures
+DEBUG flwr 2023-09-29 15:38:49,650 | server.py:173 | evaluate_round 5: strategy sampled 5 clients (out of 5)
+DEBUG flwr 2023-09-29 15:39:06,820 | server.py:187 | evaluate_round 5 received 5 results and 0 failures
+INFO flwr 2023-09-29 15:39:06,820 | server.py:153 | FL finished in 474.3872140650019
+INFO flwr 2023-09-29 15:39:06,828 | app.py:225 | app_fit: losses_distributed [(1, 0.015255773067474365), (2, 0.012774395942687988), (3, 0.01273794174194336), (4, 0.01100395917892456), (5, 0.013308143615722657)]
+INFO flwr 2023-09-29 15:39:06,828 | app.py:226 | app_fit: metrics_distributed_fit {}
+INFO flwr 2023-09-29 15:39:06,828 | app.py:227 | app_fit: metrics_distributed {'dice_score_avg': [(1, 0.529977309703827), (2, 0.5601860046386719), (3, 0.6414363503456115), (4, 0.6321333885192871), (5, 0.6577597379684448)]}
+INFO flwr 2023-09-29 15:39:06,828 | app.py:228 | app_fit: losses_centralized []
+INFO flwr 2023-09-29 15:39:06,828 | app.py:229 | app_fit: metrics_centralized {}
+Saving round 1 aggregated_parameters...
+Saving round 2 aggregated_parameters...
+Saving round 3 aggregated_parameters...
+Saving round 4 aggregated_parameters...
+Saving round 5 aggregated_parameters...
