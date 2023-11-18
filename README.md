@@ -5,6 +5,15 @@ This study investigates the potential of Federated Learning (FL) for wound recog
 
 A link to the full report can be found here: https://drive.google.com/file/d/1Nv1unlF5plHJgar0dcHLCobmQka4xVLJ/view?usp=sharing 
 
+The Project tried to address the following question:
+- What is the most performant FL aggregation strategy for wound recognition?
+- Can an FL approach outperform a traditional centralised deep learning scenario?
+- How do models, trained using FL fare in diverse deployment scenarios?
+
+Project Technology Stack
+
+  ![image](https://github.com/JV11x/Wound_FL_Diss_Project/assets/114994769/9bc81655-89e2-4c20-8dc0-6ec3acc46a91)
+
 
 ## Experiment 1: Evaluating Different FL Aggregation Strategies
 All experiments in this section employ the same U-Net image segmentation model and a consistentdataset of foot ulcers. This approach ensures a level of consistency and reproducibility across each task.
