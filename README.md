@@ -14,6 +14,8 @@ The Project tried to address the following question:
 
 ![image](https://github.com/JV11x/Wound_FL_Diss_Project/assets/114994769/6e7bc260-91a6-45fe-9920-6ac195b13cc3)
 
+Complete versions of the code for each experiment are provided without in the 'Expeiment*Code' folders. However without access to GPU resources these experiments will likely be too computationally demanding for a laptop or local device to run.
+To run a deperacated version of the experiments on a local machione follow the instructions in the 'Test_Code' folder.
 
 ## Experiment 1: Evaluating Different FL Aggregation Strategies
 All experiments in this section employ the same U-Net image segmentation model and a consistentdataset of foot ulcers. This approach ensures a level of consistency and reproducibility across each task.
