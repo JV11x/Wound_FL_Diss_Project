@@ -19,13 +19,13 @@ A paramount objective for AITIS is to establish the competitive performance of F
 The experiment involves training the image segmentation model, U-Net, utilizing both conventional centralized and federated learning methods, enabling a direct comparative analysis. A uniform number of training rounds is maintained across both FL and traditional methodologies.
 
 The delineated training scenarios encompass:
-• A singular model trained to utilise the entirety of the available data.
-• A model designed to assimilate new data in sequential batches following specific epochs, subsequently processing an equivalent epoch count on the newly acquired batch.
-• FedAvg, applied without supplementary enhancements.
-• FedAvg, complemented with an initialised model on the server.
-• FedAvg, integrating a weighted aggregation strategy.
-• FedAvg, incorporating both a weighted aggregation strategy and an initialised model on the server.
-
+- A singular model trained to utilise the entirety of the available data.
+-A model designed to assimilate new data in sequential batches following specific epochs, subsequently processing an equivalent epoch count on the newly acquired batch.
+- FedAvg, applied without supplementary enhancements.
+- FedAvg, complemented with an initialised model on the server.
+- FedAvg, integrating a weighted aggregation strategy.
+- FedAvg, incorporating both a weighted aggregation strategy and an initialised model on the server.
+ 
 ## Experiment 3: Analysing Varied Deployment Contexts
 This experiment is formulated to scrutinize the adaptability and effectiveness of the FL model in various deployment contexts, specifically focusing on differing client data volumes and operational environments. The investigation aims to discern the optimal application strategy, given the intrinsic constraints and capabilities of each deployment platform.
 Implementation: Drawing on the insights and methodologies established in Experiments 1 and 2, Experiment 3 will delve into two distinctive deployment scenarios: a Mobile App setting and a Hospital Setting.
