@@ -20,7 +20,7 @@ The experiment involves training the image segmentation model, U-Net, utilizing 
 
 The delineated training scenarios encompass:
 - A singular model trained to utilise the entirety of the available data.
--A model designed to assimilate new data in sequential batches following specific epochs, subsequently processing an equivalent epoch count on the newly acquired batch.
+- A model designed to assimilate new data in sequential batches following specific epochs, subsequently processing an equivalent epoch count on the newly acquired batch.
 - FedAvg, applied without supplementary enhancements.
 - FedAvg, complemented with an initialised model on the server.
 - FedAvg, integrating a weighted aggregation strategy.
