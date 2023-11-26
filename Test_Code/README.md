@@ -6,8 +6,8 @@ If you wish to run the deprecated version of the final code, please follow the i
 
 a. Prerequisites:
 
-    A Python IDE, preferably VS Code or PyCharm.
-    A Linux or a Unix-like operating system. If you're using Windows, you can install the Windows Subsystem for Linux (WSL) from here. Mac users don't need to install anything since MacOS is Unix-based.
+A Python IDE, preferably VS Code or PyCharm.
+A Linux or a Unix-like operating system. If you're using Windows, you can install the Windows Subsystem for Linux (WSL) from here. Mac users don't need to install anything since MacOS is Unix-based.
 
 b. Downloading the Code:
 
@@ -36,19 +36,23 @@ a. If you don't have the zip library, install it using:
 pip install zip
 
 b. Navigate to the Test_Code directory and run the following to unzip the Medetec_foot_ulcer_224.zip file:
-unzip Medetec_foot_ulcer_224.zip
+    
+    unzip Medetec_foot_ulcer_224.zip
 
 c. Change permissions on the unzipped files with:
-sudo chmod 755 Medetec_foot_ulcer_224/train 
-sudo chmod 755 Medetec_foot_ulcer_224/test
+    
+    sudo chmod 755 Medetec_foot_ulcer_224/train 
+    sudo chmod 755 Medetec_foot_ulcer_224/test
 
 3. Run Training:
 
 a. If needed, modify the permissions on the run.sh file:
-chmod +x run.sh
+    
+    chmod +x run.sh
 
 b. Start the FL training process with:
-./run.sh
+    
+    ./run.sh
 
 After executing, several new files will be generated in the directory, such as log files and .csv files that display training accuracy results. A .pt file, which represents the test data segment, will also be created. These files provide insights into the training process and its accuracy.
 
@@ -56,4 +60,4 @@ After executing, several new files will be generated in the directory, such as l
 
 To execute the test script, run:
 
-python test.py
+    python test.py
