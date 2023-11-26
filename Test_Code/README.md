@@ -30,7 +30,7 @@ Ensure pip is installed. Install the necessary dependencies with:
 
 a. If you don't have the zip library, install it using:
 
-pip install zip
+    pip install zip
 
 b. Navigate to the Test_Code directory and run the following to unzip the Medetec_foot_ulcer_224.zip file:
     
