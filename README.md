@@ -10,6 +10,8 @@ The Project tried to address the following question:
 - Can an FL approach outperform a traditional centralised deep learning scenario?
 - How do models, trained using FL fare in diverse deployment scenarios?
 
+#### To run a basic version of the experiment navigate to Test_Code in the directory and follow the instruction.
+
 ### Project Technology Stack
 
 ![image](https://github.com/JV11x/Wound_FL_Diss_Project/assets/114994769/6e7bc260-91a6-45fe-9920-6ac195b13cc3)
