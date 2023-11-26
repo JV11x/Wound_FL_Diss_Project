@@ -11,18 +11,15 @@ A Linux or a Unix-like operating system. If you're using Windows, you can instal
 
 b. Downloading the Code:
 
-    The necessary files can be downloaded from either this Google Drive Link or the GitHub repository.
-    To clone the repository directly into your Python environment, run the following command:
-
+The necessary files can be downloaded from either this Google Drive Link or the GitHub repository.
+To clone the repository directly into your Python environment, run the following command:
 
     git clone https://github.com/JV11x/Wound_FL_Diss_Project.git
 
 c. Dependencies:
-
-    The code requires the FLOWER library. Ensure you have at least Python 3.8 (though 3.10 or newer is recommended). Check your Python version with:
-
-
-python --version
+The code requires the FLOWER library. Ensure you have at least Python 3.8 (though 3.10 or newer is recommended). Check your Python version with:
+    
+    python --version
 
 If you need to upgrade, install the required Python version.
 Ensure pip is installed. Install the necessary dependencies with:
